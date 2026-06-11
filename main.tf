@@ -1,7 +1,4 @@
-# Configuracion principal del proyecto Casino Online
-# Empresa: Promarketing Chile
-# Region: ca-central-1 Canada
-
+# Provider AWS - region Canada
 terraform {
   required_providers {
     aws = {
@@ -11,7 +8,6 @@ terraform {
   }
 }
 
-# Proveedor AWS apuntando a Canada
 provider "aws" {
   region = var.region
 }
